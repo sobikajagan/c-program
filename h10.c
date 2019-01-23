@@ -19,21 +19,21 @@ int main(void) {
      {
       c++;
      }
-     
+    }
+  }
      if(c==m)
      {
        printf("yes");
-       goto k;
      }
      else
      {
        printf("no");
-       goto k;
-     }
-    }
+       
+    
+  
 
   }
 
- k:
+ 
   return 0;
 }
