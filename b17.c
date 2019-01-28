@@ -13,11 +13,11 @@ int main(void) {
   }
   if(s==r)
   {
-    printf("armstrong");
+    printf("yes");
   }
   else
   {
-    printf("not armdtrong");
+    printf("no");
   }
   
   return 0;
