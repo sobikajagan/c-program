@@ -2,24 +2,27 @@
 #include<string.h>
 int main()
 {
-int n,i,k=0;
-  char a[100],t[100];
+int n,i,k=0,j;
+  char a[100],b[100];
   scanf("%[^\n]%*c",&a);
-  strcpy(t,a);
-  printf("%s",t);
-  printf("\n");
-  n=strlen(t);
+  
+  n=strlen(a);
+  for(i=0;i<n;i++)
+  {
+    b[k]=a[i];
+    k++;
+  }
   for(i=n;i>=0;i--)
   {
  
-    printf("%c",t[i]);
+    printf("%c",a[i]);
    
   }
    printf("\n");
-    if(a==t[i])
+    if(b[k]==a[i])
     {
       printf("\n");
-      for(i=0;i<n-2;i++)
+      for(i=0;i<n-1;i++)
       {
 
       
@@ -28,7 +31,7 @@ int n,i,k=0;
     }
     else
     {
-      printf("%s",t);
+      printf("%s",b[k]);
     }
  return 0;
 }
