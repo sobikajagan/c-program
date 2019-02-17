@@ -3,7 +3,7 @@
 int main(void) 
 {
 	int i,n,k,a[20];
-	scanf("%d %d",&n,&k);
+	scanf("%d\t%d",&n,&k);
 	for(i=1;i<=n;i++)
 	{
 		scanf("%d",&a[i]);
@@ -12,7 +12,7 @@ int main(void)
 	{
 		while(i==k)
 		{
-			printf("\n%d",a[i]);
+			printf("%d",a[i]);
 			break;
 		}
 	}
