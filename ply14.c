@@ -4,7 +4,12 @@
 int main(void) 
 {
   char a[100],l,n,i;
-  scanf("%s",a);
+  int k;
+  scanf("%d",&k);
+  for(i=0;i<k;i++)
+  {
+    scanf("%c",&a[i]);
+  }
   n=strlen(a);
   for(i=n-1;i>=0;i--)
   {
@@ -19,4 +24,5 @@ int main(void)
   }
 
   return 0;
+}
 }
